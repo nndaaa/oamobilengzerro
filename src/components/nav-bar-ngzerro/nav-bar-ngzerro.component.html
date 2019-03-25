@@ -1,0 +1,17 @@
+
+    <Navbar [icon]="icon"
+            [leftContent]="''"
+            (onLeftClick)="onLeftClick()"
+    >
+      导航
+    </Navbar>
+
+    <ng-template #icon>
+      <Icon [type]="'left'"></Icon>
+    </ng-template>
+
+    <!-- <ng-template #rightContent>
+      <Icon [type]="'search'" [ngStyle]="{marginRight: '16px'}"></Icon>
+      <Icon [type]="'ellipsis'"></Icon>
+    </ng-template> -->
+  
